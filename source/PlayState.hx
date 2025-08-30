@@ -77,7 +77,7 @@ class PlayState extends MusicBeatState
 		['GREAT!', 0.8], //From 70% to 79%
 		['EVIL!', 0.9], //From 80% to 89%
 		['MONSTER!', 1], //From 90% to 99%
-		['OVERPOWER!!!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['OVERPOWER!!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
